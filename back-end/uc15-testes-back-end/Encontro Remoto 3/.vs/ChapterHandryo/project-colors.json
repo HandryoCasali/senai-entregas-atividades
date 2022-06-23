@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "fa82faf7-eb14-4a76-ad13-43d5c83e3987": {
+      "ProjectGuid": "fa82faf7-eb14-4a76-ad13-43d5c83e3987",
+      "DisplayName": "TestXUnit",
+      "ColorIndex": 0
+    },
+    "942e056a-8443-4fcb-be9a-2913be88ee38": {
+      "ProjectGuid": "942e056a-8443-4fcb-be9a-2913be88ee38",
+      "DisplayName": "ChapterHandryo",
+      "ColorIndex": 1
+    }
+  },
+  "NextColorIndex": 2
+}

@@ -1,0 +1,14 @@
+<section class="cadastrar" >
+  <form class="caixa-cadastro  py-5" (submit)="cadastrarConta()">
+    <h2 class="titulo-cadastro">Cadastro</h2>
+    <div class="form-floating mb-3">
+      <input type="email" class="form-control" id="floatingInput" placeholder="email@email.com" required [(ngModel)]="cadastro.email" name="email">
+      <label for="floatingInput">Email</label>
+    </div>
+    <div class="form-floating">
+      <input type="password" class="form-control" id="floatingPassword" placeholder="digite sua senha" required [(ngModel)]="cadastro.password" name="senha">
+      <label for="floatingPassword">Senha</label>
+    </div>
+    <button type="submit" class="btn btn-primary mt-5">Criar Conta</button>
+  </form>
+</section>

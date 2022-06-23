@@ -1,0 +1,20 @@
+<main>
+  <section class="home-office">
+      <div class="container">
+        <h2 class="titulo-principal">Home Office</h2>
+        <ul id="lista-home-office" class="lista-produtos row ">
+
+          <li class="item-produto col-xl-3 col-lg-4 col-sm-6" *ngFor="let produto of produtosHomeOffice">
+            <a href="#" class="card-produto">
+              <img [src]=produto.imagem class="imagem-produto">
+              <div class="conteudo-produto">
+                <p class="descricao-produto">{{ produto.descricao }}</p>
+                <p class="preco-produto">R$ {{ produto.valor }}</p>
+              </div>
+            </a>
+          </li>
+
+        </ul>
+      </div>
+    </section>
+</main>

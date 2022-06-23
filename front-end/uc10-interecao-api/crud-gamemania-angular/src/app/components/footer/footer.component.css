@@ -1,0 +1,73 @@
+/* Footer */
+.footer {
+  background: var(--cor-cinza-escuro);
+  padding-bottom: 40px;
+}
+
+.caixa-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.titulo-footer {
+  color: var(--cor-branco);
+  text-align: center;
+  padding: 1em 0 ;
+  text-transform: uppercase;
+}
+
+.mapa {
+  width: 40%;
+  height: 250px;
+  position: relative;
+}
+
+.icone-mapa {
+  position: absolute;
+  top: -10px;
+  left: -10px;
+  width: 30px;
+  height: 30px;
+}
+
+.contato , .redes-sociais {
+  display: flex;
+  flex-direction: column;
+}
+
+.contato img , .redes-sociais img {
+  margin-right: 10px;
+  width: 40px;
+  height: 40px;
+}
+
+.contato a , .redes-sociais a {
+  color: var(--cor-branco);
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.contato a:last-child , .redes-sociais a:last-child {
+  margin-top: 10px;
+}
+
+@media screen and (max-width: 751px){
+  .mapa {
+      display: none;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .caixa-footer {
+      flex-direction: column;
+      align-items: inherit;
+  }
+  .contato a , .redes-sociais a {
+      margin-left: 10%;
+      margin-bottom: 15px;
+      margin-top: 0!important; /* só pra aprender a usar o !important kkk */
+  }
+
+
+}

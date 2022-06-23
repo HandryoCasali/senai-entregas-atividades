@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "0a56b4c3-eadb-4cfd-964e-465a8f8c8515": {
+      "ProjectGuid": "0a56b4c3-eadb-4cfd-964e-465a8f8c8515",
+      "DisplayName": "NutriVitta",
+      "ColorIndex": 0
+    },
+    "4f8dff81-1af6-44df-889e-2007e41a5d31": {
+      "ProjectGuid": "4f8dff81-1af6-44df-889e-2007e41a5d31",
+      "DisplayName": "TestXUnitImc",
+      "ColorIndex": 1
+    }
+  },
+  "NextColorIndex": 2
+}

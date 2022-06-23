@@ -1,0 +1,13 @@
+O aplicativo consiste em armazenar todos os projetos que a empresa realiza para ter maior controle e melhorar a gestão e visibilidade do que está sendo feito por seus funcionários.
+
+Essa demanda consiste em desenvolver a interface (API) para disponibilizar os dados que serão apresentados e utilizados pela equipe de mobile e exige os seguintes critérios:
+
+Ler todos os projetos (título, status, data de início, tecnologias/requisitos/área);
+Buscar informações somente de um projeto;
+Deletar um projeto;
+Atualizar todas as informações de um projeto ou somente uma informação específica;
+Disponibilizar a documentação da API;
+Retornar os status de respostas corretos de acordo com as melhores práticas;
+Retornar os dados em formato JSON;
+Utilizar frameworks para a criação de API;
+Disponibilizar o recurso de deletar um projeto, somente para usuários que possuem permissão;

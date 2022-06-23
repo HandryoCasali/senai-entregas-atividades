@@ -1,0 +1,12 @@
+D:\Programação\Senai-FullStack\4 - Back-End\Testes em back-end\Desenho de Teste Calculadora de imc\NutriVitta\NutriVitta\bin\Debug\net6.0\NutriVitta.deps.json
+D:\Programação\Senai-FullStack\4 - Back-End\Testes em back-end\Desenho de Teste Calculadora de imc\NutriVitta\NutriVitta\bin\Debug\net6.0\NutriVitta.dll
+D:\Programação\Senai-FullStack\4 - Back-End\Testes em back-end\Desenho de Teste Calculadora de imc\NutriVitta\NutriVitta\bin\Debug\net6.0\ref\NutriVitta.dll
+D:\Programação\Senai-FullStack\4 - Back-End\Testes em back-end\Desenho de Teste Calculadora de imc\NutriVitta\NutriVitta\bin\Debug\net6.0\NutriVitta.pdb
+D:\Programação\Senai-FullStack\4 - Back-End\Testes em back-end\Desenho de Teste Calculadora de imc\NutriVitta\NutriVitta\obj\Debug\net6.0\NutriVitta.csproj.AssemblyReference.cache
+D:\Programação\Senai-FullStack\4 - Back-End\Testes em back-end\Desenho de Teste Calculadora de imc\NutriVitta\NutriVitta\obj\Debug\net6.0\NutriVitta.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programação\Senai-FullStack\4 - Back-End\Testes em back-end\Desenho de Teste Calculadora de imc\NutriVitta\NutriVitta\obj\Debug\net6.0\NutriVitta.AssemblyInfoInputs.cache
+D:\Programação\Senai-FullStack\4 - Back-End\Testes em back-end\Desenho de Teste Calculadora de imc\NutriVitta\NutriVitta\obj\Debug\net6.0\NutriVitta.AssemblyInfo.cs
+D:\Programação\Senai-FullStack\4 - Back-End\Testes em back-end\Desenho de Teste Calculadora de imc\NutriVitta\NutriVitta\obj\Debug\net6.0\NutriVitta.csproj.CoreCompileInputs.cache
+D:\Programação\Senai-FullStack\4 - Back-End\Testes em back-end\Desenho de Teste Calculadora de imc\NutriVitta\NutriVitta\obj\Debug\net6.0\NutriVitta.dll
+D:\Programação\Senai-FullStack\4 - Back-End\Testes em back-end\Desenho de Teste Calculadora de imc\NutriVitta\NutriVitta\obj\Debug\net6.0\ref\NutriVitta.dll
+D:\Programação\Senai-FullStack\4 - Back-End\Testes em back-end\Desenho de Teste Calculadora de imc\NutriVitta\NutriVitta\obj\Debug\net6.0\NutriVitta.pdb

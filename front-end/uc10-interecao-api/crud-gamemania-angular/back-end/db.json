@@ -1,0 +1,24 @@
+{
+  "users": [
+    {
+      "email": "Claudia@hotmail.com",
+      "password": "abacaxi",
+      "id": 1
+    },
+    {
+      "email": "handryo@hotmail.com",
+      "password": "admin123",
+      "id": 2
+    },
+    {
+      "email": "HandryoCasali@hotmail.com",
+      "password": "$2a$10$EeSne.K8LQwF90xxEX0/PuRd/zUSQy2PyhAjZMufTbxGXvsKOqerS",
+      "id": 3
+    },
+    {
+      "email": "email@email.com",
+      "password": "$2a$10$Z0gz4za.UtYMo6bsdAH/1efdBlZF8KgOlPFS1JkRXzxlYK0Fu4mGS",
+      "id": 4
+    }
+  ]
+}

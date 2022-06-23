@@ -1,0 +1,31 @@
+<section class="services">
+  <div class="container caixa-service">
+    <button class="botao-service botao-service-esquerdo"><img src="/assets/img/icone-botao/botao-esquerdo.png"
+        alt="" (click)="slideAnterior()"></button>
+    <button class="botao-service botao-service-direito"><img src="/assets/img/icone-botao/botao-direito.png"
+        alt="" (click)="proximoSlide()"></button>
+
+    <ul class="lista-services" #listaService>
+      <a class="card-service ativo" routerLink="monte-seu-pc">
+        <img src="/assets/img/icones-services/icone-ferramenta.png" alt="">
+        <h2>Monte<br>seu PC</h2>
+      </a>
+      <a class="card-service" routerLink="pc-gamer">
+        <img src="/assets/img/icones-services/icone-pc-gamer.png" alt="">
+        <h2>PC<br>Gamer</h2>
+      </a>
+      <a class="card-service"routerLink="home-office">
+        <img src="/assets/img/icones-services/icone-home-office.png" alt="">
+        <h2>Home<br>Office</h2>
+      </a>
+      <a class="card-service" routerLink="perifericos">
+        <img src="/assets/img/icones-services/icone-teclado-mouse.png" alt="">
+        <h2>Periféricos</h2>
+      </a>
+      <a class="card-service" routerLink='smartphones'>
+        <img src="/assets/img/icones-services/icone-smartphone.png" alt="">
+        <h2>Smartphones</h2>
+      </a>
+    </ul>
+  </div>
+</section>

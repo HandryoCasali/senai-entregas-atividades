@@ -1,0 +1,21 @@
+.cadastrar{
+  background-image: url(/assets/img/background-cadastrar.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 40px 0;
+}
+.caixa-cadastro {
+  width: 50%;
+  background-color: var(--cor-preto-transparente);
+  margin: 0 auto;
+  padding: 1em;
+  border: 1px solid var(--cor-preto-transparente);
+  border-radius: 20px;
+}
+
+.titulo-cadastro {
+  color: var(--cor-branco);
+  padding-bottom: 0.5em;
+  border-bottom: 0.5px var(--cor-branco) solid;
+  margin-bottom: 1.5em;
+}

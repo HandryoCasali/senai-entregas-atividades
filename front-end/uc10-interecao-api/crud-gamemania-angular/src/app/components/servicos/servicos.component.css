@@ -1,0 +1,115 @@
+/* Services */
+.services {
+  background: url(/assets/img/icones-services/background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.caixa-service {
+  position: relative;
+}
+
+.lista-services {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 0;
+  padding: 40px 0;
+}
+
+.card-service {
+  background: var(--cor-preto);
+  width: 180px;
+  height: 215px;
+  padding: 10px 0;
+
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: var(--cor-branco);
+
+  border-radius: 20px;
+  box-shadow: 15px 15px 4px rgba(0, 0, 0, 0.5);
+  opacity: 0.8;
+  transition: all 0.1;
+  cursor: pointer;
+}
+
+.card-service:hover {
+  opacity: 1;
+  color: var(--cor-branco);
+}
+.card-service:active {
+  transform: translate(10px, 10px);
+  box-shadow: none
+}
+
+.card-service h2 {
+  margin-top: 1em;
+  font-family: var(--font-fira-code);
+  font-size: 1.3em;
+}
+
+.botao-service {
+  display: none;
+  border-radius: 50%;
+  border: none;
+  outline: none;
+  padding: 0;
+}
+
+.botao-service img {
+  width: 40px;
+  height: 40px;
+}
+
+.botao-service-esquerdo {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 8%;
+}
+
+.botao-service-direito {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 8%;
+}
+
+@media screen and (max-width: 1200px) {
+  .card-service {
+      width: 150px;
+  }
+  .card-service img {
+      width: 100px;
+  }
+}
+
+@media screen and (max-width: 990px) {
+  .card-service:last-child {
+      margin-top: 50px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .botao-service {
+      display: block;
+  }
+
+  .card-service {
+      display: none;
+  }
+  .card-service:last-child {
+      margin-top: 0;
+  }
+
+  .lista-services {
+      justify-content: center;
+  }
+
+  .ativo {
+      display: block;
+  }
+}

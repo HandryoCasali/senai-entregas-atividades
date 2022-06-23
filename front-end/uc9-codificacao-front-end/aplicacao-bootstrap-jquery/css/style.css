@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code&display=swap');
+
+
+:root {
+    --cor-branco: #f3f3f3;
+    --cor-cinza-claro: #b0b0b0;
+    --cor-cinza-escuro: #262626;
+    --cor-azul-escuro: #090D16;
+    --cor-azul: #111A31;
+    --cor-preto: #121212;
+    --cor-preto-transparente: rgba(0,0,0,0.3);
+    --font-fira-code: 'Fira code', monospace;
+}
+
+/* Header */
+/* @import url(header.css); */
+
+/* Banner */
+/* @import url(banner.css); */
+
+/* Services */
+/* @import url(services.css); */
+
+/* Lançamentos */
+/* @import url(lancamentos-destaques.css); */
+
+/* Footer */
+/* @import url(footer.css); */

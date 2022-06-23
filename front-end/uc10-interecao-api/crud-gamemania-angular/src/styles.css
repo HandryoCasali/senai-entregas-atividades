@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code&display=swap');
+
+
+:root {
+    --cor-branco: #f3f3f3;
+    --cor-vermelha: rgb(139, 3, 3);
+    --cor-cinza-claro: #b0b0b0;
+    --cor-cinza-escuro: #262626;
+    --cor-azul-escuro: #090D16;
+    --cor-azul-claro: #dff3f5;
+    --cor-azul: #111A31;
+    --cor-preto: #121212;
+    --cor-preto-transparente: rgba(0,0,0,0.3);
+    --font-fira-code: 'Fira code', monospace;
+}
+
+/* Lançamentos  destaques pc-gamer home-office */
+.lancamentos, .destaques, .pc-gamer, .home-office, .perifericos, .smartphones {
+  padding-bottom: 50px;
+  background-color: var(--cor-azul);
+
+}
+
+.titulo-principal {
+  color: var(--cor-branco);
+  font-size: 1.7em;
+  font-weight: bold;
+  padding-top: 1em;
+}
+
+.lista-produtos {
+  padding: 0;
+  list-style: none;
+}
+
+.card-produto {
+  width: 100%;
+  padding: 0 10px;
+  margin-top: 20px;
+  /* border: 1px solid black; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  font-family: var(--font-fira-code);
+  color: var(--cor-branco);
+  text-decoration: none;
+}
+.card-produto:hover {
+  color: var(--cor-branco);
+  opacity: 0.7;
+}
+
+.conteudo-produto {
+  max-width: 400px;
+  padding-left: 8px;
+}
+
+.imagem-produto {
+  width: 200px;
+  height: 195px;
+  border-radius: 20px;
+}
+
+.descricao-produto {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.preco-produto {
+  font-size: 1.3em;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 768px) {
+ .titulo-principal {
+     text-align: center;
+     margin-bottom: 1em;
+ }
+  .imagem-produto {
+      width: 150px;
+      height: 140px;
+ }
+}

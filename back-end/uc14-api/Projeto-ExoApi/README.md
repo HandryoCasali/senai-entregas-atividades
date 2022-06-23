@@ -1,0 +1,1 @@
+Projeto simples de uma api referente a entrega de atividade do curso full stack do SENAI.

@@ -1,0 +1,26 @@
+/* Banner */
+.banner {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  background: var(--cor-azul-escuro);
+}
+
+
+@media screen and (max-width: 1200px) {
+  .imagem-banner {
+      width: 600px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .imagem-banner {
+      width: 400px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .imagem-banner {
+      width: 250px;
+  }
+}

@@ -1,0 +1,285 @@
+.header {
+  background-color: var(--cor-cinza-escuro);
+
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+
+/* Logo */
+.logo {
+  height: 90px;
+  font-family: var(--font-fira-code);
+  font-size: 2.5em;
+  font-style: oblique;
+  font-weight: bold;
+  color: var(--cor-branco);
+  text-decoration: none;
+}
+
+.logo:hover {
+  color: var(--cor-branco);
+}
+
+/* Departamentos */
+.botao-departamentos {
+  display: flex;
+  align-items: center;
+  color: var(--cor-branco);
+  font-family: var(--font-fira-code);
+  font-weight: 600;
+  text-transform: uppercase;
+  background-color: transparent;
+  border: none;
+}
+
+.botao-departamentos p {
+  margin-bottom: 0;
+}
+
+.menu-departamentos {
+  background-color: var(--cor-cinza-escuro);
+  border: none;
+  flex-wrap: nowrap;
+}
+
+.imagem-departamentos{
+  margin-right: .3em;
+  flex-wrap: nowrap;
+}
+
+.item-lista-departamentos {
+  color: var(--cor-branco);
+  padding: 1em;
+  text-transform: uppercase;
+}
+
+.item-lista-departamentos:hover {
+  color: var(--cor-cinza-claro);
+  background-color: var(--cor-cinza-escuro);
+}
+
+/* Pesquisa */
+.formulario-pesquisa {
+  width: 35%;
+}
+
+.campo-pesquisa {
+  width: 100%;
+  background: var(--cor-branco);
+  border-radius: 15px;
+}
+
+.input-pesquisa {
+  flex-grow: 1;
+  padding-left: 0.7em;
+  background-color: var(--cor-branco);
+  outline: none;
+  border: none;
+}
+
+.botao-pesquisa {
+  outline: none;
+  border: none;
+}
+
+.imagem-pesquisa {
+  width: 30px;
+  height: 30px;
+}
+
+/* Login */
+.link-login {
+  color: var(--cor-branco);
+  font-family: var(--font-fira-code);
+  font-weight: 600;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.link-login:hover {
+  color: var(--cor-branco);
+}
+.imagem-login {
+  width: 30px;
+  height: 30px;
+  margin-right: .5em;
+}
+.link-login p {
+  margin-bottom: 0;
+}
+
+/* Carrinho */
+.carrinho {
+  display: flex;
+  align-items: center;
+  padding: 5px 8px;
+
+  background-color: var(--cor-branco);
+  text-decoration: none;
+  color: var(--cor-cinza-escuro);
+
+  border: 2px solid var(--cor-branco);
+  border-radius: 10px;
+}
+
+.carrinho:hover {
+  background-color: var(--cor-cinza-claro);
+  color: var(--cor-cinza-escuro);
+}
+
+.conteudo-carrinho {
+  text-align: center;
+}
+
+.imagem-carrinho{
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}
+
+.titulo-carrinho {
+  font-family: var(--font-fira-code);
+  font-size: 1.7em;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 0;
+}
+
+.descricao-carrinho {
+  margin-bottom: .3em;
+}
+
+
+/* Modal */
+.caixa-modal {
+  background-color: var(--cor-cinza-escuro);
+  color: var(--cor-branco);
+}
+
+.caixa-entrar-cadastrar {
+  display: flex;
+}
+
+
+.form-entrar fieldset, .form-cadastrar fieldset{
+  margin-bottom: 1em;
+}
+
+.form-entrar label, .form-cadastrar label {
+  display: block;
+}
+
+.form-entrar input {
+  width: 70%;
+}
+.form-entrar input:first-child {
+  margin-bottom: 10px;
+}
+
+.mensagem-erro {
+  color: var(--cor-vermelha);
+  font-weight: bold;
+}
+
+.fecharModal {
+}
+
+@media screen and (max-width: 1200px) {
+  /* .logo {
+    flex-basis: ;
+  } */
+  .departamentos {
+    order: -1;
+  }
+
+  .botao-departamentos p {
+    display: none;
+  }
+
+
+  .imagem-login {
+    margin-right: 0;
+  }
+  .link-login p {
+    display: none;
+  }
+
+  .carrinho {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+    padding: 0;
+  }
+  .imagem-carrinho {
+    margin-right: 0;
+  }
+  .conteudo-carrinho {
+    display: none;
+  }
+
+
+
+  .menu {
+    flex-wrap: wrap;
+  }
+
+  .formulario-pesquisa {
+    order: 99;
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .campo-pesquisa {
+    padding: 0.3em;
+  }
+
+  .imagem-pesquisa {
+    width: 20px;
+    height: 20px;
+  }
+
+
+}
+
+@media screen and (max-width: 768px) {
+  .logo {
+    font-size: 2em;
+    height: 70px;
+  }
+  .carrinho {
+    width: 40px;
+    height: 40px;
+  }
+  .imagem-carrinho {
+    width: 30px;
+    height: 30px;
+  }
+
+  .caixa-entrar-cadastrar {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  /* .form-cadastrar {
+    margin-left: 0;
+    padding-left: 0;
+    margin-top: 20px;
+    padding-top: 20px;
+    border: none;
+  } */
+}
+
+@media screen and (max-width: 400px) {
+  .logo {
+    font-size: 1.5em;
+    height: 50px;
+  }
+}

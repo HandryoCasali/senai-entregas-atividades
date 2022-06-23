@@ -1,0 +1,1 @@
+Projeto exemplo de uma api simples desenvolvido durante os encontros remotos do curso do SENAI

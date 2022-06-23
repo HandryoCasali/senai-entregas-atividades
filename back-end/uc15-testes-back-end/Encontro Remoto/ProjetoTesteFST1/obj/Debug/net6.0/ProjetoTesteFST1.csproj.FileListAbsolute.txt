@@ -1,0 +1,12 @@
+D:\Programação\Senai-FullStack\4 - Back-End\Testes em back-end\Teste\ProjetoTesteFST1\ProjetoTesteFST1\bin\Debug\net6.0\ProjetoTesteFST1.deps.json
+D:\Programação\Senai-FullStack\4 - Back-End\Testes em back-end\Teste\ProjetoTesteFST1\ProjetoTesteFST1\bin\Debug\net6.0\ProjetoTesteFST1.dll
+D:\Programação\Senai-FullStack\4 - Back-End\Testes em back-end\Teste\ProjetoTesteFST1\ProjetoTesteFST1\bin\Debug\net6.0\ref\ProjetoTesteFST1.dll
+D:\Programação\Senai-FullStack\4 - Back-End\Testes em back-end\Teste\ProjetoTesteFST1\ProjetoTesteFST1\bin\Debug\net6.0\ProjetoTesteFST1.pdb
+D:\Programação\Senai-FullStack\4 - Back-End\Testes em back-end\Teste\ProjetoTesteFST1\ProjetoTesteFST1\obj\Debug\net6.0\ProjetoTesteFST1.csproj.AssemblyReference.cache
+D:\Programação\Senai-FullStack\4 - Back-End\Testes em back-end\Teste\ProjetoTesteFST1\ProjetoTesteFST1\obj\Debug\net6.0\ProjetoTesteFST1.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programação\Senai-FullStack\4 - Back-End\Testes em back-end\Teste\ProjetoTesteFST1\ProjetoTesteFST1\obj\Debug\net6.0\ProjetoTesteFST1.AssemblyInfoInputs.cache
+D:\Programação\Senai-FullStack\4 - Back-End\Testes em back-end\Teste\ProjetoTesteFST1\ProjetoTesteFST1\obj\Debug\net6.0\ProjetoTesteFST1.AssemblyInfo.cs
+D:\Programação\Senai-FullStack\4 - Back-End\Testes em back-end\Teste\ProjetoTesteFST1\ProjetoTesteFST1\obj\Debug\net6.0\ProjetoTesteFST1.csproj.CoreCompileInputs.cache
+D:\Programação\Senai-FullStack\4 - Back-End\Testes em back-end\Teste\ProjetoTesteFST1\ProjetoTesteFST1\obj\Debug\net6.0\ProjetoTesteFST1.dll
+D:\Programação\Senai-FullStack\4 - Back-End\Testes em back-end\Teste\ProjetoTesteFST1\ProjetoTesteFST1\obj\Debug\net6.0\ref\ProjetoTesteFST1.dll
+D:\Programação\Senai-FullStack\4 - Back-End\Testes em back-end\Teste\ProjetoTesteFST1\ProjetoTesteFST1\obj\Debug\net6.0\ProjetoTesteFST1.pdb
